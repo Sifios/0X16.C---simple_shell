@@ -16,6 +16,7 @@ typedef struct denum
 {
 	int cnt;
 } denum;
+int betty_check(const char *filename);
 void prompt(char **arv, char **envp, bool flg);
 int _strcmpare(char *s1, char *s2);
 char *_strcat(char *dest, char *src);
